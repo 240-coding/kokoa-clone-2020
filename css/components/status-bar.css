@@ -1,7 +1,8 @@
 .status-bar {
-  position: fixed;
+  position: fixed; /* 상단바 화면 고정(직접 작성) */
   top: 0;
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
