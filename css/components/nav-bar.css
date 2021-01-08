@@ -16,6 +16,9 @@
   color: #2e363e;
 }
 
+@keyframes notificationAnimation {
+}
+
 .nav__notification {
   position: absolute;
   left: 20px;
