@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 11000vh;
+  height: 500vh;
 }
 
 #chat-screen .alt-header,
@@ -99,7 +99,7 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 5px 25px;
+  padding: 5px 4%; /* 좌우로 가변 패딩 적용 */
   box-sizing: border-box;
   align-items: center;
 }
@@ -122,17 +122,18 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -3px;
-  top: 2px;
+  right: 5px;
+  top: 2px; /* position이 absolute이기 때문에 위치를 직접 정해야 함 */
 }
 
 .reply__column:last-child > i {
-  right: 40px;
+  right: 50px;
   top: 10px;
 }
 
