@@ -23,6 +23,15 @@
   }
 }
 
+.screen-header__icons span:last-child {
+  position: relative;
+}
+
+.find-dot {
+  top: -3px;
+  left: 0px;
+}
+
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }

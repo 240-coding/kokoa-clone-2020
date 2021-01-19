@@ -35,14 +35,7 @@
   animation: notificationAnimation 1.5s ease-in-out infinite;
 }
 
-.nav__new {
-  /* 더보기 메뉴 빨간 점(직접 작성)*/
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
+.nav-dot {
   left: 33px;
 }
 
